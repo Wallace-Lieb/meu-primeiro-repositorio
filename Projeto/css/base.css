@@ -1,0 +1,48 @@
+:root {
+    /* --body-font: font-family: 'Orbitron', sans-serif;   */
+    --color-yellow-100: #ffff00;    
+    --color-white-100: #ffffff;
+    --color-lime-100: #00ff00;
+    --color-red-800: #a60000;
+    --color-gray-100: #a9a9a933;    
+}
+
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-yellow-100);
+
+}
+
+a:hover {
+    color: var(--color-white-100);
+}
+
+i:hover {
+    color: var(--color-white-100);
+}
